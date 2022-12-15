@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="bike">
+        <nav>
+            <img src="images/logo.png" alt="logo" class="logo">
+            <a href="#" class="btn">Test Drive</a>
+        </nav>
+
+        <div class="content">
+            <h2>YAMAHA</h2>
+            <h1>MT 15</h1>
+            <p>Yamaha MT-15 Version 2.0 is powered by 155 cc engine.This MT-15 Version 2.0 engine generates a power of
+                18.4 PS @ 10000 rpm and a torque of 14.1 Nm @ 7500 rpm. The claimed mileage of MT-15 Version 2.0 is
+                47.94 kmpl. Yamaha MT-15 Version 2.0 gets Disc brakes in the front and rear. The kerb weight of MT-15
+                Version 2.0 is 139 Kg. Yamaha MT-15 Version 2.0 has Tubeless Tyre and Alloy Wheels.</p>
+            <h3>Choose Your Color</h3>
+            <div class="color-select">
+                <div id="White"></div>
+                <div id="Black"></div>
+                <div id="NavyBlue"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        let WhiteBtn = document.getElementById("White");
+        let BlackBtn = document.getElementById("Black");
+        let NavyBlueBtn = document.getElementById("NavyBlue");
+
+        WhiteBtn.onclick = function () {
+            bike.style.backgroundImage = "url(images/1.png)"
+        }
+
+        BlackBtn.onclick = function () {
+            bike.style.backgroundImage = "url(images/2.png)"
+        }
+
+        NavyBlueBtn.onclick = function () {
+            bike.style.backgroundImage = "url(images/4.png)"
+        }
+
+
+
+
+    </script>
+
+</body>
+
+</html>
